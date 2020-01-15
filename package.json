@@ -3,6 +3,10 @@
 	"displayName": "cursorColumnSelect on true lines",
 	"description": "Implements cursorColumnSelect so that it is working on true lines and not on visible editor lines. This fixes the issue that cursorColumnSelect is not selecting the next true line with Word Wrap enabled",
 	"publisher": "MartinZimmermannApps",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/martinzimmermann/vscode-CursorColumnSelectOnTrueLines.git"
+	},
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.41.0"
@@ -24,6 +28,18 @@
 			{
 				"command": "onTrueLines.cursorColumnSelectDownOnTrueLines",
 				"title": "cursorColumnSelectDown operating on true lines"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "onTrueLines.cursorColumnSelectUpOnTrueLines",
+				"key": "ctrl+shift+alt+up",
+				"when": "textInputFocus"
+			},
+			{
+				"command": "onTrueLines.cursorColumnSelectDownOnTrueLines",
+				"key": "ctrl+shift+alt+down",
+				"when": "textInputFocus"
 			}
 		]
 	},
