@@ -1,6 +1,6 @@
 # cursorColumnSelect on true lines
 
-This extensions changes the multi cursor select of cursorColumnSelectUp/Down to operates on true lines. This is especially useful when Word Wrap is enabled. This extensions provides two commands Up/Down that operate on the actual lines not on the wrapped lines.
+[This extension](https://marketplace.visualstudio.com/items?itemName=MartinZimmermannApps.CursorColumnSelectOnTrueLines) changes the multi cursor select of cursorColumnSelectUp/Down to operates on true lines. This is especially useful when Word Wrap is enabled. This extensions provides two commands Up/Down that operate on the actual lines not on the wrapped lines.
 
 Original Behavior of `cursorColumnSelectDown`
 ![Original Behavior of cursorColumnSelectDown](/original.gif)
